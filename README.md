@@ -1,4 +1,5 @@
 # vis_assignment1
+Link to github repo: https://github.com/AndersRoen/vis_assignment1.git
 
 ## Assignment 1 description
 In the last few weeks, we've seen how images can be deconstructed into the three colour channels which they comprise (RGB). We saw that, in some ways, the colour histogram of an image is its "colour fingerprint". We also saw that images can be compared for similarity of their colour histograms, allowing us to find which images are most like each other in terms of their colour.
