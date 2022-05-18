@@ -12,6 +12,7 @@ For this assignment, you will write a small Python program to compare image hist
     Save a CSV which has one column for the filename and three columns showing the filenames of the closest images in descending order
 
 ## Methods
+First, to get this to work you should download this dataset and put it in the ```in``` folder.
 This problem dealt mainly with basic image processing, such as normalisation and creating histograms and comparing them to each other. To tackle the problem, I made two scripts, one (```image_searching.py```) using fairly simple image processing techniques to find the three most similar images, the second (```nearest_neighbours.py```) using feature extraction and nearest neighbour calculations instead.
 
 image_searching.py iterates over the flowers folder to get the filepaths, does aforementioned image processing and finds the three closest images by comparing the distance scores of histograms. The user is able to define the focus image with the ```image``` argument. This will get the job done, but the second script is more sophisticated and generally gets better results.
