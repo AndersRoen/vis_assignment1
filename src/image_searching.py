@@ -116,7 +116,7 @@ def save_images_csv(similar, joined_paths, image, similar_images):
     axarr[1,1].text(0.5, 0.5, f"Distance:{similar_images[2]}", fontsize=7, ha="center")
     
     # create an outpath
-    outpath = os.path.join("Outputs", "color_hist_similar_images.jpg")
+    outpath = os.path.join("out", "color_hist_similar_images.jpg")
     
     # save the figure
     f.savefig(outpath)
