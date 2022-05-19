@@ -113,7 +113,7 @@ def n_neighbours(feature_list, focus_index, joined_paths, vis_name):
     ax[0,1].text(0.5, 0.5, f"Distance:{distances[0][1]}", fontsize=7, ha="center")
     ax[1,0].text(0.5, 0.5, f"Distance:{distances[0][2]}", fontsize=7, ha="center")
     ax[1,1].text(0.5, 0.5, f"Distance:{distances[0][3]}", fontsize=7, ha="center")
-    outpath = os.path.join("Outputs", vis_name)
+    outpath = os.path.join("out", vis_name)
     f.savefig(outpath)
     
     return idxs
